@@ -1,0 +1,7 @@
+*EXPLAINATION OF STACK*	
+
+	Stack is implemented using C programming.First i initialised all header files and array of mystack with top.
+
+	Starting from main,i made the menu to implement the stack using push and pop operation..and it will continue untill you select exit.
+	When push is selected then first enter the item to push between 0-9. now push method is called in which ptr of top and item is passed. Here different condition is implemented as stack is full if top=9,invalid input if item is not in range(0-9), It srores first item in stack(when top=-1) after increment the top but if it is other than first then compare it with element at top of stack,if element is one less than item then it allows to store after incrementing top and return 1 indicates that item is successfully pushed.
+	When pop is selected,pop method is called in which ptr of top is passed. Here item which is at top of stack is returned and top is decremented by 1. If top=-1 then stack is empty and -1 is returned.
